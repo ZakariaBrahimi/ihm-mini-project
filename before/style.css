@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    background-color: #d35400;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.logo{
+    color: #fff;
+}
+ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+main{
+    display: flex;
+    gap: 7em;
+}
+.product-info{
+
+}
+img{
+    width: 50%;
+    height: 600px;
+}
+button{
+    /* padding: .5em 5em; */
+}
